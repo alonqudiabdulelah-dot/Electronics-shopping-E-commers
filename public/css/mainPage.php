@@ -9,8 +9,7 @@
     <body>
       <!-- navbar for the main page -->
         <nav class="navbar navbar-expand-lg" style="background-color:#e3f2fd;">
-          
-          
+
             <div class="container-fluid">
              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -40,5 +39,25 @@
             </div>
          </div>
         </nav>
+        <!-- 
+          <div class="container">
+            <footer class="py-3 my-4">
+              
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li   class="nav-item">
+                  <a href="#" class="px-2 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="px-2 text-body-secondary">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="px-2 text-body-secondary">About us</a>
+                </li>
+                
+              </ul>
+              <p class="text-center text-body-secondary">&copy 2026 Company,inc</p>
+            </footer>
+            -->
+        </div>
     </body>
 </html> 
