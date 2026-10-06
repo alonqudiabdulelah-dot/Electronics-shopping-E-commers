@@ -1,77 +1,47 @@
+<?php  include 'bootsrap.php';?>
+
 
 <html>
 
 <head>
 
+</head>
 
+<body>
+    <footer class="fixed-bottom">
 
-<style>
+        <div class="containr-fluid  pb-3  " style="background-color:#e3f2fd;">
 
+<nav class="navbar navbar-expand-sm justify-content-center">
 
-.container
-{
-    
-    min-height: 100vh;
-    
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    width: 33.33%;
+    <ul class="navbar-nav text-center">
+        
+        
+        <li class="nav-item">
+        <a  class="nav-link" href="example">Home</a>
+            
+        </li>
+        <li class="nav-item">
+            
+            <a   class="nav-link" href="example">Contact us</a>
+        </li>
+        <li class="nav-item">
+            
+            <a   class="nav-link " href="expample">About us</a>
+        </li>
+        
+    </ul>
 
-}
-
-.footer
-{
-
-background-color: #e3f2fd;
-width: 600px;
-margin-top: auto;
-text-align: center;
-}
-
-.footer a 
-{
-color: black;
-text-decoration: none;
-}
-
-/* size screen for phones */
-@media screen and (max-width: 600px)
-{
-    .container
-    {
-        position: relative;
-    }
-
-}
-
-</style>
-    </head>
-    <body>
+</nav>
+<hr>
+<p id="span" style="text-align: center;">&copy 2026 Company,inc</p>  
+                
+                </div>
+     
+                
+    </footer>
         
 
-    
-    
-    <footer>
-
-    <div class="container">
-
-
-<div class="footer">
-
-
-
-    <a href="example">Home</a>
-    <a href="example">Contact us</a>
-    <a href="expample">About us</a>
-
-
-    
-    <hr>
-    <p id="span">&copy 2026 Company,inc</p>
-    </div>
-    </div>
-    </footer>
-    </body>
+   
+</body>
 </html>
